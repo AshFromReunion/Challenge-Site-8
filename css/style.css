@@ -21,6 +21,9 @@ header h1 {
 
 img {
   margin-bottom: 20px; }
+  h2{
+    margin-bottom: 40px;
+  }
 
 .navbar-default {
   background-color: #7c2c8a;
