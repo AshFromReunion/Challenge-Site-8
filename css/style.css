@@ -1,6 +1,7 @@
 body {
   background-color: #e7e7e7;
-  font-family: 'Open Sans', sans-serif; }
+  font-family: 'Open Sans', sans-serif;
+  color: #222; }
 
 header {
   background: url("../images/smarthome-product-4a2000.jpeg") no-repeat;
@@ -11,7 +12,7 @@ header h1 {
   padding: 200px 0;
   color: #e7e7e7;
   font-size: 100px;
-  text-shadow: 0 0 3px black; }
+  text-shadow: 0 0 3px #222; }
 
 .espace-bloc {
   padding: 50px 0; }
@@ -26,7 +27,11 @@ img {
 .navbar-default {
   background-color: #7c2c8a;
   border-color: #7c2c8a;
-  box-shadow: 0 0 4px black; }
+  box-shadow: 0 0 4px #222; }
+  .navbar-default .navbar-toggle {
+    border: none; }
+    .navbar-default .navbar-toggle .icon-bar {
+      background-color: #e7e7e7; }
   .navbar-default .navbar-brand {
     color: #e7e7e7; }
     .navbar-default .navbar-brand:hover {
@@ -39,5 +44,10 @@ img {
 
 h2 {
   margin: 50px 0; }
+
+h3 {
+  font-size: 17px;
+  font-weight: bold;
+  margin-bottom: 20px; }
 
 /*# sourceMappingURL=style.css.map */
