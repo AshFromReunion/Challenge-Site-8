@@ -1,3 +1,5 @@
+$couleur1: #7c2c8a;
+$couleur2: #e7e7e7;
 header {
     background: url('../images/smarthome-product-4a2000.jpeg') no-repeat;
     height: 100vh;
@@ -5,7 +7,17 @@ header {
 }
 
 header h1 {
-    padding: 200px;
-    color: white;
+    padding: 200px 0;
+    color: $couleur2;
     font-size: 100px;
+    text-shadow: 0 0 3px black;
+}
+
+.espace-bloc {
+    padding: 50px 0;
+}
+
+.paragraphe {
+    background-color: $couleur1;
+    color: $couleur2;
 }
