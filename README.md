@@ -44,4 +44,4 @@ git clone https://github.com/zurb/foundation-sites-template projectname
 cd projectname
 npm install
 bower install
-```# Challenge-Site-8
+```
