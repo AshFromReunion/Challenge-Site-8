@@ -4,8 +4,16 @@ header {
   background-size: cover; }
 
 header h1 {
-  padding: 200px;
-  color: white;
-  font-size: 100px; }
+  padding: 200px 0;
+  color: #e7e7e7;
+  font-size: 100px;
+  text-shadow: 0 0 3px black; }
+
+.espace-bloc {
+  padding: 50px 0; }
+
+.paragraphe {
+  background-color: #7c2c8a;
+  color: #e7e7e7; }
 
 /*# sourceMappingURL=style.css.map */
